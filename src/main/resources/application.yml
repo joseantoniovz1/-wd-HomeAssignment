@@ -1,0 +1,27 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+  application:
+    name: wd-HomeAssignment
+  webflux:
+    base-path: /western-digital/home-assignment/v1
+
+aws:
+  dynamodb:
+    accessKey: test
+    secretKey: test
+    endpoint: http://localhost:8000
+    region: us-east-1
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs/api-spec
+  swagger-ui:
+    path: /api-docs/swagger-ui.html
+
+
+#aws:
+#  dynamodb:
+#    endpoint: http://localhost:8085/
